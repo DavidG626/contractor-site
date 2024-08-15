@@ -1,0 +1,15 @@
+@media screen and (max-width: 1000px) {
+    
+    
+    .content-wrapper {
+        flex-direction: column;
+    }
+    
+    .text-column, .jeff {
+        flex: 1 1 100%;
+    }
+    
+    .jeff {
+        order: 2; /* Moves image below text on small screens */
+    }
+}

@@ -1,0 +1,56 @@
+
+@media screen and (max-width: 1000px) {
+    .header {
+    font-size: 24px;
+    justify-content: left;
+    }
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+       
+     }
+     .hamburger-icon {
+        right: 52px;
+     }
+    
+    #title-1 {
+      font-size: 41px;
+    }
+    #title-2 {
+      font-size: 25px;
+      padding-top: 15px;
+    }
+
+    #title-3 {
+      padding-top: 42px;
+      font-size: 20px;
+    }
+    #title-3a  {
+      padding-right: 0px;
+      margin-right: 25px;
+      margin-right: 25px;
+    }
+
+    #signature {
+      font-size: 32px;
+    }
+      
+  
+    
+
+    
+    
+   .content-wrapper {
+       flex-direction: column;
+   }
+   
+   .text-column, .jeff {
+       flex: 1 1 100%;
+   }
+   
+   .jeff {
+       order: 2; /* Moves image below text on small screens */
+   }
+}
